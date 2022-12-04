@@ -29,6 +29,13 @@ def raaklijn():
     print("\n")
 
 
+# main code
+print("Hallo, bedankt voor het openen van dit programma :)")
+print("\n")
+print("Dit programma berekent de vergelijking voor ")
+print("de raaklijn van de grafiek met de vorm: y = ax^n + bx.")
+
+
 # Inputs
 a = int(input("Voer een getal voor a in:"))
 print("Getal voor a: ", a)
@@ -38,13 +45,6 @@ b = int(input("Voer een getal voor b in:"))
 print("Getal voor b: ", b)
 x = int(input("Voer een getal in voor x:"))
 print("Getal voor x: ", x)
-
-
-# main code
-print("Hallo, bedankt voor het openen van dit programma :)")
-print("\n")
-print("Dit programma berekent de vergelijking voor ")
-print("de raaklijn van de grafiek met de vorm: y = ax^n + bx.")
 
 
 # initialiseer modules

@@ -29,7 +29,7 @@ def raaklijn():
     print("\n")
 
 
-# main code
+# start screen
 print("Hallo, bedankt voor het openen van dit programma :)")
 print("\n")
 print("Dit programma berekent de vergelijking voor ")

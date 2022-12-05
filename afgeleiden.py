@@ -49,7 +49,7 @@ def msg():
     y += (b * x)
     c1 = c
     c1 *= x
-    txt3 = "Het raakpunt is ({} is {})"
+    txt3 = "Het raakpunt is ({}, {})"
     print(txt3.format(x,y))
     print("\n")
 

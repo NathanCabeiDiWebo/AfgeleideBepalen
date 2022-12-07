@@ -9,12 +9,13 @@ import math
 def screen():
     print("\n")
     print("Dit programma berekent de vergelijking van ")
-    print("de raaklijn van de grafiek met de vorm: y = ax^n + bx.")
+    print("de raaklijn aan de grafiek van een functie in de vorm f(x) = ax^n + bx.")
+    print("\n")
 
 
 # Module for formule
 def display():
-    txt = "De vergelijking is: f(x) = {} x^{} + {}x"
+    txt = "De ingevoerde functie is: f(x) = {} x^{} + {}x"
     print(txt.format(a, n, b, ))
     print("\n")
 
@@ -54,7 +55,7 @@ def msg():
     print("\n")
 
 def helling():
-    txt3 = "De helling op x = {} is {}"
+    txt3 = "De rc in x = {} is {}"
     print(txt3.format(x,c))
     print("\n")
 

@@ -10,17 +10,9 @@ def screen():
     print("\n")
     print("Dit programma berekent de vergelijking van ")
     print("de raaklijn van de grafiek met de vorm: y = ax^n + bx.")
-<<<<<<< HEAD
-    print("\n")
-
-# Module for formule
-
-
-=======
 
 
 # Module for formule
->>>>>>> ef3059cf50efecc359e5ae6d5645e1007d69f20c
 def display():
     txt = "De vergelijking is: f(x) = {} x^{} + {}x"
     print(txt.format(a, n, b, ))
@@ -32,11 +24,7 @@ def afgeleide():
     global A, N, c
     A = (a * n)
     N = (n - 1)
-<<<<<<< HEAD
-    c = pow(x, N)
-=======
     c = pow (x,N)
->>>>>>> ef3059cf50efecc359e5ae6d5645e1007d69f20c
     c *= A
     c += b
 
@@ -54,11 +42,6 @@ def raaklijn():
         print(txt5.format(c, d))
         print("\n")
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ef3059cf50efecc359e5ae6d5645e1007d69f20c
 def msg():
     global y, c1
     y = pow(x, n)
@@ -67,18 +50,16 @@ def msg():
     c1 = c
     c1 *= x
     txt3 = "Het raakpunt is ({}, {})"
-<<<<<<< HEAD
-    print(txt3.format(x, y))
+    print(txt3.format(x,y))
     print("\n")
-
 
 def helling():
     txt3 = "De helling op x = {} is {}"
-    print(txt3.format(x, c))
+    print(txt3.format(x,c))
     print("\n")
 
 while True:
-    # main code
+    #main code
     screen()
     a = int(input("Voer in a: "))
     print("Getal voor a: ", a)
@@ -89,40 +70,10 @@ while True:
     x = int(input("Voer in x: "))
     print("Getal voor x: ", x)
     print("\n")
-# rest of modules
+    
+#rest of modules
     display()
     afgeleide()
     msg()
     helling()
     raaklijn()
-    
-=======
-    print(txt3.format(x,y))
-    print("\n")
-
-def helling():
-    txt3 = "De helling op x = {} is {}"
-    print(txt3.format(x,c))
-    print("\n")
-
-
-#main code
-screen()
-a = int(input("Voer in a: "))
-print("Getal voor a: ", a)
-n = int(input("Voer in n: "))
-print("Getal voor n: ", n)
-b = int(input("Voer in b: "))
-print("Getal voor b: ", b)
-x = int(input("Voer in x: "))
-print("Getal voor x: ", x)
-print("\n")
-
-
-#rest of modules
-display()
-afgeleide()
-msg()
-helling()
-raaklijn()
->>>>>>> ef3059cf50efecc359e5ae6d5645e1007d69f20c
